@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cacdd2;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(78, 159, 239);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(5, 216, 231, 0.777);
+}
+
+.left-section {
+    background-color: rgb(92, 83, 133);
+    color: rgb(0, 255, 225);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid #020f34; /* This border is now replaced with glowing effect */
+    overflow: hidden; /* Ensures the image stays within the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px 5px rgba(255, 182, 193, 0.7); /* Glowing pink effect */
+}
+
+.profile-picture img {
+    width: 100px;  /* Set a fixed smaller size for the image */
+    height: 100px; /* Ensure the image maintains its aspect ratio */
+    object-fit: cover; /* Fill the area without distortion */
+}
+
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(225, 214, 214);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #bcb0dd;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-section {
+    padding: 20px;
+    width: 65%;
+    color: rgba(0, 0, 0, 0.911);
+}
+    
+
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+.personal-info{
+    color:rgb(0, 255, 225)
+}
